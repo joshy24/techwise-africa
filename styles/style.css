@@ -1,0 +1,268 @@
+body, html{
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,a,li,span{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.tw-zero{
+    width: 100%;
+    height: 100vh;
+}
+
+.tw-zero h4{
+    line-height: 1.6em;
+    font-size: 40px;
+}
+
+.tw-zero .tw-quarter{
+    background: url('../images/twone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tw-zero .tw-three-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.tw-one{
+    width: 100%;
+    height: 100vh;
+}
+
+.tw-one .tw-quarter{
+    background: url('../images/twtwo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tw-one .tw-three-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tw-one .tw-three-four h1{
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tw-one .tw-three-four h4{
+    line-height: 1.5em;
+    color: #33A8FF;
+}
+
+
+
+.tw-two{
+    width: 100%;
+    height: 100vh;
+}
+
+.tw-two .tw-quarter{
+    background: url('../images/twthree.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tw-two .tw-three-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tw-two .tw-three-four h1{
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.tw-two .tw-three-four h4{
+    line-height: 1.5em;
+    color: #33A8FF;
+    font-weight: 300;
+}
+
+
+
+.tw-three{
+    width: 100%;
+    height: 100vh;
+}
+
+.tw-three .tw-quarter{
+    background: url('../images/twfour.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tw-three .tw-three-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tw-three .tw-three-four h1{
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.tw-three .tw-three-four h4{
+    line-height: 1.5em;
+    color: #33A8FF;
+    font-weight: 300;
+}
+
+
+
+
+.tw-four{
+    width: 100%;
+    height: 100vh;
+}
+
+.tw-four .tw-quarter{
+    background: url('../images/twfive.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tw-four .tw-three-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tw-four .tw-three-four h1{
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.tw-four .tw-three-four h4{
+    line-height: 1.5em;
+    color: #33A8FF;
+    font-weight: 300;
+}
+
+
+.tw-quarter{
+    width: 60%;
+    height: 100vh;
+    float:left; 
+    background-color: #33A8FF;
+    padding: 80px;
+}
+
+.tw-quarter h1{
+    padding: 12px;
+    background: #FFFFFF;
+    width: 300px;
+}
+
+.tw-three-four{
+    width: 40%;
+    height: 100vh;
+    float: right;
+    padding: 80px;
+}
+
+
+
+.tw-slider{
+    height: 100vh;
+    width: 100%;
+    font-family: "Open-Sans", sans-serif;
+}
+
+
+
+
+.tw-color-primary{
+    color: #33A8FF;
+}
+
+/*.tw-green{
+    color: green;
+}
+
+.tw-yellow{
+    color: gold;
+}
+
+.tw-red{
+    color: red;
+}*/
+
+
+
+/*navbar*/
+.navbar{
+    margin-bottom: 0px;
+    -webkit-box-shadow:0px 1px 1px #000000;
+    -moz-box-shadow:0px 1px 1px #000000;
+    box-shadow:0px 1px 1px #000000;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    /*margin-left: -45px;*/
+}
+
+nav.navbar.navbar-default {
+    background-color: #FFFFFF;
+    border: 0px solid #E98980;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #a8095b;
+}
+
+.navbar-default .navbar-brand{
+    color: #a8095b;
+    padding-left: 30px;
+}
+
+.navbar-default .navbar-brand:hover{
+   color:#a8095b;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+   background-color: #a8095b;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a:hover{
+    color: #000000;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a{
+    color: #000000;
+}
+
+.navbar-nav .open .dropdown-menu li a{
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu li a{
+        color: #a8095b;
+    }
+
+    .navbar-nav .open .dropdown-menu li a:focus{
+        color: #a8095b;
+    }
+}
+/*navbar*/
