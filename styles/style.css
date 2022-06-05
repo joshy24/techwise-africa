@@ -274,12 +274,17 @@ nav.navbar.navbar-default {
 
 
 @media screen and (max-width: 900px) {
+
+    body, html{
+        overflow-y: scroll;
+    }
+
     .tw-quarter{
         width: 100%;
         height: auto;
         float:left; 
         background-color: #33A8FF;
-        padding: 80px;
+        padding: 30px;
     }
     
     .tw-quarter h1{
@@ -292,6 +297,6 @@ nav.navbar.navbar-default {
         width: 100%;
         height: auto;
         float: none;
-        padding: 80px;
+        padding: 30px;
     }
 }
