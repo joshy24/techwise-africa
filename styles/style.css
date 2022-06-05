@@ -272,7 +272,6 @@ nav.navbar.navbar-default {
 
 
 
-
 @media screen and (max-width: 900px) {
 
     body, html{
@@ -295,7 +294,7 @@ nav.navbar.navbar-default {
     
     .tw-three-four{
         width: 100%;
-        height: auto;
+        height: 250px;
         float: none;
         padding: 30px;
     }
