@@ -159,6 +159,9 @@ h1,h2,h3,h4,h5,h6,a,li,span{
 }
 
 
+
+
+
 .tw-quarter{
     width: 60%;
     height: 100vh;
@@ -266,3 +269,56 @@ nav.navbar.navbar-default {
     }
 }
 /*navbar*/
+
+
+
+
+@media screen and (max-width: 900px) {
+    .tw-zero{
+        width: 100%;
+        height: 100vh;
+        background: url('../images/twone.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    /*.tw-zero h4{
+        line-height: 1.6em;
+        font-size: 40px;
+    }*/
+    
+    .tw-zero .tw-quarter{
+        background: none;
+    }
+    
+    .tw-zero .tw-three-four{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
+    .tw-quarter{
+        width: 100%;
+        height: auto;
+        float:left; 
+        background-color: #33A8FF;
+        padding: 80px;
+    }
+    
+    .tw-quarter h1{
+        padding: 12px;
+        background: #FFFFFF;
+        width: 300px;
+    }
+    
+    .tw-three-four{
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 80px;
+    }
+}
