@@ -316,7 +316,7 @@ nav.navbar.navbar-default {
     margin-top: 16px;
 }
 
-.whiteBackground h3,h5{
+.whiteBackground h3,h5,h6{
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     margin: 0px 0px 16px 0px;
