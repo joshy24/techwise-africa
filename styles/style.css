@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:200,300,400,500,600,700,800,900&display=swap');
+
 body, html{
     overflow-x: hidden;
 }
@@ -312,4 +314,10 @@ nav.navbar.navbar-default {
     box-shadow: 0px 1.6px 4px rgba(0, 0, 0, 0.25);
     padding: 24px;
     margin-top: 16px;
+}
+
+.whiteBackground h3,h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin: 0px;
 }
