@@ -205,6 +205,10 @@ h1,h2,h3,h4,h5,h6,a,li,span{
     color: #33A8FF;
 }
 
+.tw-header-text{
+    word-wrap: break-word;
+}
+
 /*.tw-green{
     color: green;
 }
@@ -323,19 +327,23 @@ nav.navbar.navbar-default {
 @media screen and (max-width: 768px) {
     .tw-three-four-landing{
         margin-top: 160px;
-    }
-
-    .two-zero h4{
-        font-size: 28px;
+        font-size: 28px !important;
     }
 }
 
 @media screen and (max-width: 300px) {
     .tw-three-four-landing{
         margin-top: 190px;
+        font-size: 20px !important;
     }
 
     .two-zero h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .tw-header-text{
         font-size: 20px;
     }
 }
